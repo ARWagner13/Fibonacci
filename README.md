@@ -1,26 +1,6 @@
 # Fibonacci
 Serie fibonacci
 
-package Contenido;
+## No hay necesidad de meter el código en el README
 
-import java.util.Scanner;
-
-public class Serie {
-
-   
-    public static void main(String[] args) {
-        Scanner tecla = new Scanner(System.in);
-        int a=0, b=1, c, n;
-        
-        System.out.print("Ingrese cantidad de elementos para la serie:");
-        n = tecla.nextInt();
-        
-        for (int i = 0; i < n; i++) {
-            System.out.println(a);
-            c=a+b;
-            a=b;
-            b=c;
-        }
-    }
-    
-}
+El código aparece en los archivos adicionales, este archivo es para aclarar cosas con otros lectores.
