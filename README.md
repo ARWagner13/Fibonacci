@@ -16,11 +16,12 @@ public class Serie {
         n = tecla.nextInt();
         
         for (int i = 0; i < n; i++) {
-            System.out.println(a);
+        
             c=a+b;
             a=b;
             b=c;
         }
+      System.out.println(a);
     }
     
 }
